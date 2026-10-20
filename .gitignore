@@ -1,0 +1,25 @@
+# Build artifacts
+android/build/
+android/app/build/
+android/.gradle/
+android/local.properties
+android/.idea/
+android/*.iml
+
+# Third-party cloned reference repositories (used during reverse engineering)
+splix/
+xerox_driver/
+
+# Python cache & test output
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+test_output/
+received_prints/
+sample_print.spl
+
+# Release binaries
+release/
+.DS_Store
+Thumbs.db

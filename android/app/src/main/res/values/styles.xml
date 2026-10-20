@@ -1,0 +1,8 @@
+<resources>
+    <!-- Transparent theme for Zero-Click QuickPrintActivity -->
+    <style name="Theme.ZeroClick" parent="@android:style/Theme.NoDisplay">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

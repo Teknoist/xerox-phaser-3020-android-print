@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Zero-Click Phaser 3020 Print</string>
+    <string name="print_service_name">Xerox Phaser 3020 / Samsung M2020 Print Service</string>
+    <string name="printer_name">Xerox Phaser 3020 (Wi-Fi/LAN)</string>
+    <string name="notification_channel_name">Print Status</string>
+    <string name="notification_channel_desc">Real-time status of Zero-Click background print jobs</string>
+    <string name="action_retry">Retry Print</string>
+    <string name="action_cancel">Cancel</string>
+</resources>

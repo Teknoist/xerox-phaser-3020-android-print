@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Samsung One UI Signature Color Palette -->
+    <color name="oneui_primary">#0072DE</color>
+    <color name="oneui_primary_dark">#0057B3</color>
+    <color name="oneui_primary_light">#E8F2FF</color>
+    <color name="oneui_accent_cyan">#00E5FF</color>
+
+    <color name="oneui_bg">#F4F6FA</color>
+    <color name="oneui_card_bg">#FFFFFF</color>
+    <color name="oneui_card_stroke">#E4E8EE</color>
+
+    <color name="oneui_text_title">#121316</color>
+    <color name="oneui_text_body">#3D4048</color>
+    <color name="oneui_text_muted">#828894</color>
+
+    <color name="oneui_status_online">#00C853</color>
+    <color name="oneui_status_online_bg">#E6F8EE</color>
+    <color name="oneui_status_offline">#FF5252</color>
+    <color name="oneui_status_offline_bg">#FDECEC</color>
+
+    <color name="oneui_divider">#E6E9EF</color>
+</resources>

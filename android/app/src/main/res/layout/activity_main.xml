@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/oneui_bg"
+    android:fillViewport="true"
+    android:overScrollMode="never">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:paddingTop="36dp"
+        android:paddingBottom="48dp">
+
+        <!-- Samsung One UI Spacious Top Header Area -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_marginBottom="24dp">
+
+            <ImageView
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:src="@mipmap/ic_launcher"
+                android:contentDescription="@string/app_name" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/oneui_title"
+                    android:textColor="@color/oneui_text_title"
+                    android:textSize="26sp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-medium" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/oneui_subtitle"
+                    android:textColor="@color/oneui_text_muted"
+                    android:textSize="14sp"
+                    android:layout_marginTop="2dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Card 1: Printer Live Connection Status (One UI 26dp Card) -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_oneui_card"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:layout_marginBottom="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Yazıcı Durumu"
+                    android:textColor="@color/oneui_text_title"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_status_badge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_oneui_pill"
+                    android:paddingStart="12dp"
+                    android:paddingEnd="12dp"
+                    android:paddingTop="4dp"
+                    android:paddingBottom="4dp"
+                    android:text="Hazır"
+                    android:textColor="@color/oneui_status_online"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_printer_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ağ üzerinden veya Wi-Fi Direct ile otomatik bağlanır.\nPort: 9100 • 600 DPI Lazer • QPDL v3"
+                android:textColor="@color/oneui_text_body"
+                android:textSize="13sp"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="3dp" />
+
+            <!-- One UI Primary Action: Test Print -->
+            <Button
+                android:id="@+id/btn_test_print"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/shape_oneui_button"
+                android:text="@string/btn_test_print"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:stateListAnimator="@null" />
+        </LinearLayout>
+
+        <!-- Card 2: Discovery & Network Scanner -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_oneui_card"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ağ Taraması &amp; Algılama"
+                android:textColor="@color/oneui_text_title"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_scan_results"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="mDNS (_pdl-datastream._tcp), /24 Subnet Port 9100 taraması ve Wi-Fi Direct desteklenir."
+                android:textColor="@color/oneui_text_body"
+                android:textSize="13sp"
+                android:layout_marginTop="8dp" />
+
+            <Button
+                android:id="@+id/btn_scan_printers"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/shape_oneui_edittext"
+                android:text="@string/btn_scan_printers"
+                android:textColor="@color/oneui_primary"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:stateListAnimator="@null" />
+        </LinearLayout>
+
+        <!-- Card 3: Manual IP Configuration -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_oneui_card"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sabit IP Yapılandırması"
+                android:textColor="@color/oneui_text_title"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yazıcınız sabit bir IP adresine sahipse (örn: 192.168.1.150) doğrudan tanımlayabilirsiniz:"
+                android:textColor="@color/oneui_text_body"
+                android:textSize="13sp"
+                android:layout_marginTop="6dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="12dp">
+
+                <EditText
+                    android:id="@+id/et_manual_ip"
+                    android:layout_width="0dp"
+                    android:layout_height="46dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_oneui_edittext"
+                    android:hint="192.168.1.100"
+                    android:inputType="textUri"
+                    android:paddingStart="14dp"
+                    android:paddingEnd="14dp"
+                    android:textSize="14sp"
+                    android:textColor="@color/oneui_text_title" />
+
+                <Button
+                    android:id="@+id/btn_save_ip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="46dp"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/shape_oneui_button"
+                    android:text="@string/btn_save_ip"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:stateListAnimator="@null" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Card 4: Zero-Click Share Guide -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_oneui_card"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/card_zeroclick_title"
+                android:textColor="@color/oneui_text_title"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/card_zeroclick_desc"
+                android:textColor="@color/oneui_text_body"
+                android:textSize="13sp"
+                android:layout_marginTop="8dp"
+                android:lineSpacingExtra="4dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

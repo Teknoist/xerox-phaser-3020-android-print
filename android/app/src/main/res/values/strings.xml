@@ -1,9 +1,22 @@
 <resources>
-    <string name="app_name">Zero-Click Phaser 3020 Print</string>
-    <string name="print_service_name">Xerox Phaser 3020 / Samsung M2020 Print Service</string>
+    <string name="app_name">Phaser 3020 Yazıcı</string>
+    <string name="app_name_full">Xerox Phaser 3020 / Samsung M2020 Print Service</string>
+    <string name="print_service_name">Xerox Phaser 3020 / Samsung M2020 Yazıcı Servisi</string>
     <string name="printer_name">Xerox Phaser 3020 (Wi-Fi/LAN)</string>
-    <string name="notification_channel_name">Print Status</string>
-    <string name="notification_channel_desc">Real-time status of Zero-Click background print jobs</string>
-    <string name="action_retry">Retry Print</string>
-    <string name="action_cancel">Cancel</string>
+    <string name="notification_channel_name">Yazdırma Durumu</string>
+    <string name="notification_channel_desc">Sıfır Tıklama arka plan yazdırma canlı bildirimleri</string>
+    <string name="action_retry">Tekrar Dene</string>
+    <string name="action_cancel">İptal</string>
+
+    <!-- Dashboard Strings -->
+    <string name="oneui_title">Phaser 3020</string>
+    <string name="oneui_subtitle">Samsung M2020 &amp; Xerox Laser Servisi</string>
+    <string name="status_ready">Yazdırmaya Hazır</string>
+    <string name="status_searching">Yazıcı Aranıyor…</string>
+    <string name="status_connected">Bağlandı</string>
+    <string name="btn_test_print">Test Sayfası Yazdır</string>
+    <string name="btn_scan_printers">Yazıcıları Tara</string>
+    <string name="btn_save_ip">IP Kaydet</string>
+    <string name="card_zeroclick_title">Sıfır Tıklama (Zero-Click) Nedir?</string>
+    <string name="card_zeroclick_desc">Galeriden, Chrome\'dan veya herhangi bir uygulamadan Paylaş (Share) butonuna basıp "Phaser 3020 Yazıcı"yı seçtiğiniz anda; hiçbir ekrana gerek kalmadan dosya doğrudan 600 DPI lazer baskıya gönderilir.</string>
 </resources>

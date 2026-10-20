@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Soft drop shadow underneath printer body -->
+    <path
+        android:fillColor="#22002B6D"
+        android:pathData="M30,76h48c4,0 7,3 7,6c0,3 -3,5 -7,5H30c-4,0 -7,-2 -7,-5c0,-3 3,-6 7,-6z" />
+
+    <!-- Top feeding paper sheet -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M37,27h34c2.8,0 5,2.2 5,5v20H32V32c0,-2.8 2.2,-5 5,-5z" />
+
+    <!-- Paper text document lines -->
+    <path
+        android:fillColor="#B0CBEF"
+        android:pathData="M40,34h28c0.6,0 1,0.4 1,1s-0.4,1 -1,1H40c-0.6,0 -1,-0.4 -1,-1s0.4,-1 1,-1z" />
+    <path
+        android:fillColor="#B0CBEF"
+        android:pathData="M40,39h28c0.6,0 1,0.4 1,1s-0.4,1 -1,1H40c-0.6,0 -1,-0.4 -1,-1s0.4,-1 1,-1z" />
+    <path
+        android:fillColor="#B0CBEF"
+        android:pathData="M40,44h18c0.6,0 1,0.4 1,1s-0.4,1 -1,1H40c-0.6,0 -1,-0.4 -1,-1s0.4,-1 1,-1z" />
+
+    <!-- Main Printer Body (Ice White / Samsung Clean Finish) -->
+    <path
+        android:fillColor="#F6F8FC"
+        android:pathData="M27,47h54c4.4,0 8,3.6 8,8v19c0,4.4 -3.6,8 -8,8H27c-4.4,0 -8,-3.6 -8,-8V55c0,-4.4 3.6,-8 8,-8z" />
+
+    <!-- Subtle bevel highlight on top edge -->
+    <path
+        android:fillColor="#40FFFFFF"
+        android:pathData="M27,48h54c3.9,0 7,3.1 7,7v2H20v-2c0,-3.9 3.1,-7 7,-7z" />
+
+    <!-- Recessed Output Tray / Laser Paper Slot -->
+    <path
+        android:fillColor="#D4DEEC"
+        android:pathData="M32,56h44c2.2,0 4,1.8 4,4v7c0,2.2 -1.8,4 -4,4H32c-2.2,0 -4,-1.8 -4,-4v-7c0,-2.2 1.8,-4 4,-4z" />
+    <path
+        android:fillColor="#B8C8DD"
+        android:pathData="M32,56h44c2.2,0 4,1.8 4,3v1H28v-1c0,-1.2 1.8,-3 4,-3z" />
+
+    <!-- Ejected Printed Document -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M36,60h36c1.7,0 3,1.3 3,3v8c0,1.7 -1.3,3 -3,3H36c-1.7,0 -3,-1.3 -3,-3v-8c0,-1.7 1.3,-3 3,-3z" />
+    <path
+        android:fillColor="#B0CBEF"
+        android:pathData="M40,64h28c0.5,0 1,0.4 1,0.9c0,0.5 -0.5,0.9 -1,0.9H40c-0.5,0 -1,-0.4 -1,-0.9c0,-0.5 0.5,-0.9 1,-0.9z" />
+    <path
+        android:fillColor="#B0CBEF"
+        android:pathData="M40,68h16c0.5,0 1,0.4 1,0.9c0,0.5 -0.5,0.9 -1,0.9H40c-0.5,0 -1,-0.4 -1,-0.9c0,-0.5 0.5,-0.9 1,-0.9z" />
+
+    <!-- Cyan Laser Status Indicator Glow & Dot -->
+    <path
+        android:fillColor="#3300E5FF"
+        android:pathData="M31,76a4,4 0 1,0 8,0a4,4 0 1,0 -8,0" />
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M33,76a2,2 0 1,0 4,0a2,2 0 1,0 -4,0" />
+
+    <!-- Sleek Wi-Fi Direct Signal Waves -->
+    <path
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"
+        android:pathData="M71,31c3.5,-3.5 9.2,-3.5 12.7,0" />
+    <path
+        android:strokeColor="#00E5FF"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"
+        android:pathData="M74,34c1.9,-1.9 5.1,-1.9 7,0" />
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M76.5,38a1.2,1.2 0 1,0 2.4,0a1.2,1.2 0 1,0 -2.4,0" />
+
+</vector>

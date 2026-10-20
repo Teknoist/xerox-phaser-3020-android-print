@@ -110,14 +110,19 @@ The mock printer will:
 
 ---
 
-## 4. Frictionless Android Architecture (Phase 2)
+## 4. Samsung One UI Architecture & Frictionless UX (Phase 2)
 
-### A. Zero-Click Share Sheet Printing (`QuickPrintActivity`)
+### A. Samsung One UI Visual Design & Adaptive Icons
+- **Samsung One UI Squircle Adaptive Icon**: Specially crafted icon geometry matching Samsung One UI 6 & 7 system aesthetics, featuring the signature Samsung deep-blue gradient (`#1A78FF` to `#0047C4`), metallic ice-white printer chassis, cyan high-tech status LED (`#00E5FF`), paper feed sheet, and Wi-Fi Direct arcs.
+- **Companion Dashboard (`MainActivity`)**: Designed following Samsung One UI ergonomic guidelines (spacious viewing area at the top, thumb-friendly interaction area at the bottom, 26dp rounded corner cards, subtle borders, and live connection status badges).
+- **One-Tap Diagnostics**: Directly perform a 600 DPI test print, scan for network printers, or store a static printer IP.
+
+### B. Zero-Click Share Sheet Printing (`QuickPrintActivity`)
 - Registered with `@android:style/Theme.NoDisplay` for `ACTION_SEND` and `ACTION_VIEW` (`application/pdf`, `image/*`).
-- When user shares a PDF or photo from Chrome, WhatsApp, Drive, or Gallery, selecting "Zero-Click Phaser 3020 Print" immediately triggers the background foreground service and finishes in **0 ms**.
+- When user shares a PDF or photo from Chrome, WhatsApp, Drive, or Gallery, selecting "Phaser 3020 Yazıcı" immediately triggers the background foreground service and finishes in **0 ms**.
 - **Zero user dialogs or confirmation taps required.**
 
-### B. System Print Dialog Integration (`PhaserPrintService`)
+### C. System Print Dialog Integration (`PhaserPrintService`)
 - Implements Android's native `PrintService` and `PrinterDiscoverySession`.
 - Exposes `Xerox Phaser 3020 (Wi-Fi/Direct)` in the standard Android system print dialog with full 600 DPI monochrome capabilities.
 

@@ -1,4 +1,16 @@
 <resources>
+    <!-- Samsung One UI Theme -->
+    <style name="Theme.OneUI" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/oneui_bg</item>
+        <item name="android:statusBarColor">@color/oneui_bg</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/oneui_bg</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="colorPrimary">@color/oneui_primary</item>
+        <item name="colorPrimaryDark">@color/oneui_primary_dark</item>
+        <item name="colorAccent">@color/oneui_primary</item>
+    </style>
+
     <!-- Transparent theme for Zero-Click QuickPrintActivity -->
     <style name="Theme.ZeroClick" parent="@android:style/Theme.NoDisplay">
         <item name="android:windowBackground">@android:color/transparent</item>
